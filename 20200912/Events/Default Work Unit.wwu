@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{96586065-7DB2-49DC-B9F2-1FC46A3752B0}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{96586065-7DB2-49DC-B9F2-1FC46A3752B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{4E836930-08FB-499C-B5B2-B186581AF2C8}" ShortID="458564279">
+					<ChildrenList>
+						<Folder Name="General" ID="{74666016-8EE8-44D2-8FDF-DD61D1B8CCD0}" ShortID="715708263">
+							<ChildrenList>
+								<Event Name="Foot" ID="{A2256B1E-F21D-4C48-A805-6F0F14ACD8FB}">
+									<ChildrenList>
+										<Action Name="" ID="{FC66D858-9167-455F-9C04-847AF981CBE9}" ShortID="308704765">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Foot" ID="{2F8EEA16-7EAA-4EB7-A729-35B8B5493155}" WorkUnitID="{84334FD3-F764-4376-B9F5-11CBAE13CE56}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AMB" ID="{4E565452-2538-4DC7-B143-985118527F17}" ShortID="329445822">
+					<ChildrenList>
+						<Event Name="SAN" ID="{07232EF2-E92A-4EEE-A0FC-763549774548}">
+							<ChildrenList>
+								<Action Name="" ID="{A602ACE6-7183-4192-8BCE-BD7BA13C60FA}" ShortID="74436024">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SAN_CNG" ID="{4A44A445-DB01-46E9-9444-47FE3E4871CC}" WorkUnitID="{84334FD3-F764-4376-B9F5-11CBAE13CE56}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SAN_STOP" ID="{5E51DCE9-3E1A-458E-98F0-9B8089CBD3C5}">
+							<ChildrenList>
+								<Action Name="" ID="{87E56082-3FC8-40D5-BD16-4D6AB4C01870}" ShortID="292817146">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SAN_CNG" ID="{4A44A445-DB01-46E9-9444-47FE3E4871CC}" WorkUnitID="{84334FD3-F764-4376-B9F5-11CBAE13CE56}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

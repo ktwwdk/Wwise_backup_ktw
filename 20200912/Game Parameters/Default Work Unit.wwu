@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5CF481D-19CD-4AE1-A06C-52700F8AFC98}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{C5CF481D-19CD-4AE1-A06C-52700F8AFC98}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AMB" ID="{95B89D1F-1EBD-475E-9DDE-2866900586F2}" ShortID="675807137">
+					<ChildrenList>
+						<GameParameter Name="Time" ID="{70DF41B1-90E0-46CB-B563-CCEE2C9FF2A7}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="24"/>
+								<Property Name="Min" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Distance" ID="{231975AC-DE62-4386-BC50-69DE31B0C204}">
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="10"/>
+								<Property Name="Max" Type="Real64" Value="50"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Rain_Intensity" ID="{3A003DD2-5585-45B8-9B1B-0DA33D5DCAE1}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{D90F6716-7FF2-4CB3-BF1B-093F45D5A782}" ShortID="536878128">
+					<ChildrenList>
+						<Folder Name="Vehicle" ID="{4A91F20E-9BCF-4B01-8EFC-6D0867195F71}" ShortID="25626262">
+							<ChildrenList>
+								<GameParameter Name="Work_Load" ID="{BE10626D-635A-40F0-9A65-FD1C5B3D6B12}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Car_Speed" ID="{5D80AAE9-F56C-42DE-ACCE-FAEF98435FA2}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0"/>
+									</PropertyList>
+								</GameParameter>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

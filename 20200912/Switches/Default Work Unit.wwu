@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2366BEB1-C48E-4B9B-AB17-28E4C8FAB093}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{2366BEB1-C48E-4B9B-AB17-28E4C8FAB093}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{FC4D7198-B908-4DAD-80D0-D482E8EA99DA}" ShortID="445417566">
+					<ChildrenList>
+						<SwitchGroup Name="matrial" ID="{D08A3E8C-7184-4C45-83DF-FD128F7076DF}">
+							<ChildrenList>
+								<Switch Name="Dirt" ID="{363B7345-0ECA-4A0B-9403-680B0A7CFB43}"/>
+								<Switch Name="Cave" ID="{03A84C6F-34D7-4EBE-8CC3-F5CAD0B36C5A}"/>
+								<Switch Name="Metal" ID="{15AE1504-A6CF-46BC-8904-44BB9883A500}"/>
+								<Switch Name="Grave" ID="{5CC3649B-57A4-43DC-B810-E9FDE1AD81E9}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
